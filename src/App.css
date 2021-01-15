@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito;
+  border-bottom: 10px solid #C0C0C0;
+  padding: 25px 0px 28px 0px;
+
+}
+
+footer .address {
+  color: #fff;
+}
+
+footer .address h3{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+footer .address h3::after{
+  display: block;
+  height: 5px;
+  width: 45px;
+  background-color: #fff;
+  content: "";
+  margin-bottom: 30px;
+  margin-top: 16px;
+ 
+}
+
+
+
+footer .address a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  display: inherit;
+  margin-top: 16px;
+}
+
+footer .contact{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer .contact ul li{
+  width: 195px;
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  list-style: none;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+}
+
+footer .contact ul li:last-child{
+  margin-bottom: 0;
+  line-height: 12px;
+}
+
+footer .contact ul li a{
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+
+}
+
+footer .contact ul li a::before{
+  content: '';
+  background-image: url('email-ico.png');
+  height: 16px;
+  width: 16px;
+  background-size: 100% 100%;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+  margin-right: auto;
+  margin-left: 17px;
+}
+
+
+footer .contact ul li:last-child a::before{
+  background-image: url('headphone-ico.png');
+  height: 16px;
+  width: 16px;
+  background-size: 100% 100%;
+  display: inline-block;
+
+
+}
+
+
+footer .created{
+  display: inherit;
+
+}
+
+footer .created div{
+  margin-left: 20px;
+  line-height: 25px;
+
+}
+
+footer .created p{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px){
+  footer{
+   height: 386px;
+   position: relative;
+
+  }
+
+  footer .address {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    margin-top: 30px;
+ 
+  }
+
+  
+  footer .address p{
+    line-height: 12px;
+    font-size: 20px;
+    margin-top: 17px;
+  }
+
+  footer .address a{
+    line-height: 12px;
+    font-size: 13px;
+  }
+
+  footer .address h3{
+   font-size: 18px;
+  }
+
+  footer .address h3::after{
+    display: block;
+    height: 5px;
+    width: 35px;
+    background-color: #fff;
+    content: "";
+    margin-bottom: 25px;
+   
+  }
+
+  footer .address p{
+    font-size: 13px; 
+  
+  }
+
+ 
+ footer .created{
+   position: absolute;
+   bottom: 0;
+   left: auto;
+
+  
+ }
+
+ footer .created div{
+  margin-left: 0px;
+  line-height: 25px;
+  padding: 0px 50px 0px 50px;
+ }
+
+ footer .created div p{
+  font-size: 10px;
+  line-height: 13px;
+ }
+
+ footer .contact {
+  margin-top: 220px;
+}
+
+}
